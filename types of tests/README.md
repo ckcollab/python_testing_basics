@@ -1,13 +1,13 @@
-There are 3 main types of tests
+## There are 3 main types of tests
 
-### Functional
+#### Functional
 
 Tests the end-user usage of the features.
 
-### Integration
+#### Integration
 
 Tests many modules used together.
 
-### Unit
+#### Unit
 
 Tests one small unit of code.
