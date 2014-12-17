@@ -15,7 +15,6 @@ class TestButton(unittest.TestCase):
         self.driver.close()
 
     def test_clicking_button_shows_alert(self):
-
         current_directory = os.path.dirname(os.path.realpath(__file__))
         path = 'file://%s' % os.path.join(current_directory, 'index.html')
         self.driver.get(path)
