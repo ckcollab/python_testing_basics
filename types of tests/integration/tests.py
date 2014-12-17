@@ -7,7 +7,8 @@ def get_weather(city_name):
     return requests.get("http://api.openweathermap.org/data/2.5/weather?q=%s" % city_name)
 
 
-class TestWeather(unittest.TestCase):
+class TestWeatherIntegration(unittest.TestCase):
+    '''Integration test of our function + requests + open weather map working together'''
     def test_get_weather_returns_temp_min_and_max(self):
         result = get_weather("Coeur d'Alene, Idaho")
         data = json.loads(result.content)
