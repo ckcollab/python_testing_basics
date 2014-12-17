@@ -22,10 +22,7 @@ Installing requirements
 
 Running tests (from directory you cloned)
 
-    $ python types\ of\ tests/unit/tests.py
-    $ python types\ of\ tests/integration/tests.py
-    $ python types\ of\ tests/integration/tests_alternative_unit.py
-    $ python types\ of\ tests/functional/tests.py
+    $ nosetests types\ of\ tests/**/*.py 
 
 
 Useful libraries
