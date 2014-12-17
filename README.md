@@ -7,11 +7,11 @@ An example unit test, integration test and functional test using Python
 Definitions
 ===========
 
-`Unit test` Tests the end-user usage of the features.
+`Unit test` Tests one small unit of code.
 
 `Integration test` Tests many modules used together.
 
-`Functional test` Tests one small unit of code.
+`Functional test` Tests the end-user usage of the features.
 
 `Test runner` Finds tests to run with nice features for filtering and executing tests.
 
