@@ -9,12 +9,12 @@ Useful libraries
 
 ### Unit testing
 
-[nose]()
-[py.test]()
-[webtest]()
-[mock]()
+[nose](https://nose.readthedocs.org/en/latest/)
+[py.test](http://pytest.org/latest/)
+[webtest](http://webtest.readthedocs.org/en/latest/)
+[mock](https://docs.python.org/3/library/unittest.mock.html)
 
 ### Functional testing
 
-[selenium]()
+[selenium](http://www.seleniumhq.org/)
 [ghost.py](http://jeanphix.me/Ghost.py/)
