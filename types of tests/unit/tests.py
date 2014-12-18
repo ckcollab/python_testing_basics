@@ -7,7 +7,7 @@ def add_one(number):
 
 class TestAddOne(unittest.TestCase):
     def test_add_one_returns_number_plus_one(self):
-        assert add_one(1) == 3
+        assert add_one(1) == 2
 
 
 if __name__ == "__main__":
